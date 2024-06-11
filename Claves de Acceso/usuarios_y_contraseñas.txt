@@ -1,0 +1,23 @@
+Perfil
+
+1 - Administrador
+usuario: daniel
+contraseña: 18273645
+
+2 - GerenteSupervisor
+usuario: juancito
+contraseña: 19632015
+
+3 - Supervisor
+usuario: monic4
+contraseña: abcd1234
+
+4 - Vendedor
+usuario: elmati
+contraseña: qwerty123
+-----------
+usuario: p1l4r
+contraseña: 1q2w3e4r
+-----------
+usuario: maria
+contraseña: 12344321

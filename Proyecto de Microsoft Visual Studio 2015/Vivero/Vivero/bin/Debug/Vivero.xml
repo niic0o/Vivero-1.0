@@ -1,0 +1,441 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Vivero
+</name>
+</assembly>
+<members>
+<member name="T:Vivero.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources._93e1bc7856130db4cec930345a13eba9_fondo_de_plantas_de_primavera_de_estilo_funky">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources._93e1bc7856130db4cec930345a13eba9_fondo_de_plantas_de_primavera_de_estilo_funky1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.aaa">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.actualizado">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.add_icon_icons_com_74429">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.backup">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.buscar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.depositphotos_30378823_stock_illustration_plants_eco_icon">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.Día_Mundial_del_Backup_1000x600">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.Dk3SMfjX4AUXvG3">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.edit_validated_40458">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.entrar">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.historia_fisica_plantas_AyP">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.historia_fisica_plantas_AyP1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.ic_cancel_128_28318__1_">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.istockphoto_1071031508_612x612">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.kisspng_plant_logo_stock_photography_clip_art_rice_5ac51cfec39fe6_1256350315228674548013">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.log_out">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.logovivero2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.plantas_floraciones_finales_de_invierno_xl_668x400x80xX_1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.plantas_ilustraciones_senor_gato_19c3baff_1200x630">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.png_transparent_green_leaf_logo_agriculture_accommodation_internet_television_2018_hotel_farm_stay">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.pngtree_wedding_simple_cover_green_leaves_tropical_plant_background_image_333607">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.Print_icon_icons_com_73705">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.vcsnormal_93488__1_">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.viveros_de_plantas_caracteristicas">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Vivero.My.Resources.Resources.viveros_de_plantas_caracteristicas1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Vivero.DatosDeFacturas">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Vivero.DatosDeFacturas.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Vivero.DatosDeFacturas.FACTURAS_DETALLEDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Vivero.DatosDeFacturas.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Vivero.DatosDeFacturas.FACTURAS_DETALLERow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Vivero.DatosDeFacturas.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Vivero.DatosDeFacturas.FACTURAS_DETALLERowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Vivero.DatosDeFacturasTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Vivero.DatosDeFacturasTableAdapters.FACTURAS_DETALLETableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Vivero.DatosDeFacturasTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Vivero.DatosDeFacturasTableAdapters.TableAdapterManager.UpdateUpdatedRows(Vivero.DatosDeFacturas,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Vivero.DatosDeFacturasTableAdapters.TableAdapterManager.UpdateInsertedRows(Vivero.DatosDeFacturas,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Vivero.DatosDeFacturasTableAdapters.TableAdapterManager.UpdateDeletedRows(Vivero.DatosDeFacturas,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Vivero.DatosDeFacturasTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Vivero.DatosDeFacturasTableAdapters.TableAdapterManager.UpdateAll(Vivero.DatosDeFacturas)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Vivero.DatosDeFacturasTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Vivero.DatosDeFacturasTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Vivero.DatosProdPorCategoria">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Vivero.DatosProdPorCategoria.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Vivero.DatosProdPorCategoria.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Vivero.DatosProdPorCategoria.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Vivero.DatosProdPorCategoriaTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Vivero.DatosProdPorCategoriaTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Vivero.DatosProdPorCategoriaTableAdapters.TableAdapterManager.UpdateUpdatedRows(Vivero.DatosProdPorCategoria,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Vivero.DatosProdPorCategoriaTableAdapters.TableAdapterManager.UpdateInsertedRows(Vivero.DatosProdPorCategoria,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Vivero.DatosProdPorCategoriaTableAdapters.TableAdapterManager.UpdateDeletedRows(Vivero.DatosProdPorCategoria,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Vivero.DatosProdPorCategoriaTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Vivero.DatosProdPorCategoriaTableAdapters.TableAdapterManager.UpdateAll(Vivero.DatosProdPorCategoria)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Vivero.DatosProdPorCategoriaTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Vivero.DatosProdPorCategoriaTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Vivero.DatosProductos">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Vivero.DatosProductos.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Vivero.DatosProductos.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Vivero.DatosProductos.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Vivero.DatosProductosTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Vivero.DatosProductosTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Vivero.DatosProductosTableAdapters.TableAdapterManager.UpdateUpdatedRows(Vivero.DatosProductos,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Vivero.DatosProductosTableAdapters.TableAdapterManager.UpdateInsertedRows(Vivero.DatosProductos,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Vivero.DatosProductosTableAdapters.TableAdapterManager.UpdateDeletedRows(Vivero.DatosProductos,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Vivero.DatosProductosTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Vivero.DatosProductosTableAdapters.TableAdapterManager.UpdateAll(Vivero.DatosProductos)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Vivero.DatosProductosTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Vivero.DatosProductosTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Vivero.DatosVentasPorVendedor">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Vivero.DatosVentasPorVendedor.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Vivero.DatosVentasPorVendedor.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Vivero.DatosVentasPorVendedor.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Vivero.DatosVentasPorVendedorTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Vivero.DatosVentasPorVendedorTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Vivero.DatosVentasPorVendedorTableAdapters.TableAdapterManager.UpdateUpdatedRows(Vivero.DatosVentasPorVendedor,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Vivero.DatosVentasPorVendedorTableAdapters.TableAdapterManager.UpdateInsertedRows(Vivero.DatosVentasPorVendedor,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Vivero.DatosVentasPorVendedorTableAdapters.TableAdapterManager.UpdateDeletedRows(Vivero.DatosVentasPorVendedor,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Vivero.DatosVentasPorVendedorTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Vivero.DatosVentasPorVendedorTableAdapters.TableAdapterManager.UpdateAll(Vivero.DatosVentasPorVendedor)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Vivero.DatosVentasPorVendedorTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Vivero.DatosVentasPorVendedorTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

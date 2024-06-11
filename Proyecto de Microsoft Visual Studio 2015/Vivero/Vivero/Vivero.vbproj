@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FD12CD30-3601-4552-8554-9C33AF405384}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Vivero.My.MyApplication</StartupObject>
+    <RootNamespace>Vivero</RootNamespace>
+    <AssemblyName>Vivero</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Vivero.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Vivero.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CATEGORIAS.vb">
+      <DependentUpon>DB_VIVEROmodel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CDatos\D_CATEGORIAS.vb" />
+    <Compile Include="CDatos\D_CLIENTES.vb" />
+    <Compile Include="CDatos\D_FACTURAS.vb" />
+    <Compile Include="CDatos\D_FACTURAS_DETALLE.vb" />
+    <Compile Include="CDatos\D_FORMA_PAGO.vb" />
+    <Compile Include="CDatos\D_PERFILES.vb" />
+    <Compile Include="CDatos\D_PRODUCTOS.vb" />
+    <Compile Include="CDatos\D_TIPOS_DE_PRODUCTOS.vb" />
+    <Compile Include="CDatos\D_USUARIOS.vb" />
+    <Compile Include="CEntidades\E_CATEGORIA.vb" />
+    <Compile Include="CEntidades\E_CLIENTES.vb" />
+    <Compile Include="CEntidades\E_FACTURAS.vb" />
+    <Compile Include="CEntidades\E_FACTURAS_DETALLE.vb" />
+    <Compile Include="CEntidades\E_FORMAS_DE_PAGO.vb" />
+    <Compile Include="CEntidades\E_PERFILES.vb" />
+    <Compile Include="CEntidades\E_PRODUCTOS.vb" />
+    <Compile Include="CEntidades\E_TIPOS_DE_PRODUCTOS.vb" />
+    <Compile Include="CEntidades\E_USUARIOS.vb" />
+    <Compile Include="CLIENTES.vb">
+      <DependentUpon>DB_VIVEROmodel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CNegocios\N_CATEGORIAS.vb" />
+    <Compile Include="CNegocios\N_CLIENTES.vb" />
+    <Compile Include="CNegocios\N_FACTURAS.vb" />
+    <Compile Include="CNegocios\N_FACTURAS_DETALLE.vb" />
+    <Compile Include="CNegocios\N_FORMA_PAGO.vb" />
+    <Compile Include="CNegocios\N_PERFILES.vb" />
+    <Compile Include="CNegocios\N_PRODUCTOS.vb" />
+    <Compile Include="CNegocios\N_TIPOS_DE_PRODUCTOS.vb" />
+    <Compile Include="CNegocios\N_USUARIOS.vb" />
+    <Compile Include="DatosDeFacturas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatosDeFacturas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatosDeFacturas.vb">
+      <DependentUpon>DatosDeFacturas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatosProdPorCategoria.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatosProdPorCategoria.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatosProductos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatosProductos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatosProductos.vb">
+      <DependentUpon>DatosProductos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatosVentasPorVendedor.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatosVentasPorVendedor.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DB_VIVEROmodel.Context.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_VIVEROmodel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DB_VIVEROmodel.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_VIVEROmodel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DB_VIVEROmodel.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_VIVEROmodel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FACTURAS.vb">
+      <DependentUpon>DB_VIVEROmodel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FACTURAS_DETALLE.vb">
+      <DependentUpon>DB_VIVEROmodel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMAS_DE_PAGO.vb">
+      <DependentUpon>DB_VIVEROmodel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PERFILES.vb">
+      <DependentUpon>DB_VIVEROmodel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Administrador\AltaUsuario.Designer.vb">
+      <DependentUpon>AltaUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Administrador\AltaUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Administrador\Backup.Designer.vb">
+      <DependentUpon>Backup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Administrador\Backup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Administrador\BajaUsuario.Designer.vb">
+      <DependentUpon>BajaUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Administrador\BajaUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Administrador\MenuAdmin.Designer.vb">
+      <DependentUpon>MenuAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Administrador\MenuAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Administrador\ModificarUsuario.Designer.vb">
+      <DependentUpon>ModificarUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Administrador\ModificarUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Administrador\MuestraUsuarios.Designer.vb">
+      <DependentUpon>MuestraUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Administrador\MuestraUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Administrador\UsuariosInactivos.Designer.vb">
+      <DependentUpon>UsuariosInactivos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Administrador\UsuariosInactivos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\AltaCliente.Designer.vb">
+      <DependentUpon>AltaCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\AltaCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\MenuVendedor.Designer.vb">
+      <DependentUpon>MenuVendedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\MenuVendedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\MisVentas.Designer.vb">
+      <DependentUpon>MisVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\MisVentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\ModificarCliente.Designer.vb">
+      <DependentUpon>ModificarCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\ModificarCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\MostrarCliente.Designer.vb">
+      <DependentUpon>MostrarCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\MostrarCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\SeleccionarCliente.Designer.vb">
+      <DependentUpon>SeleccionarCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\SeleccionarCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\SeleccionarProducto.Designer.vb">
+      <DependentUpon>SeleccionarProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\SeleccionarProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\VerFactura.Designer.vb">
+      <DependentUpon>VerFactura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\VerFactura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\VerProductos.Designer.vb">
+      <DependentUpon>VerProductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\VerProductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\AgregarVenta.Designer.vb">
+      <DependentUpon>AgregarVenta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Empleado\AgregarVenta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\GerenteSupervisor\ListadoDeVentas.Designer.vb">
+      <DependentUpon>ListadoDeVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\GerenteSupervisor\ListadoDeVentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\GerenteSupervisor\MenuGerenteSupervisor.Designer.vb">
+      <DependentUpon>MenuGerenteSupervisor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\GerenteSupervisor\MenuGerenteSupervisor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\GerenteSupervisor\VentasProductos.Designer.vb">
+      <DependentUpon>VentasProductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\GerenteSupervisor\VentasProductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\GerenteSupervisor\ReporteDeIngresos.Designer.vb">
+      <DependentUpon>ReporteDeIngresos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\GerenteSupervisor\ReporteDeIngresos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\AltaDeProducto.Designer.vb">
+      <DependentUpon>AltaDeProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\AltaDeProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\BajaDeCliente.Designer.vb">
+      <DependentUpon>BajaDeCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\BajaDeCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\BajaDeProducto.Designer.vb">
+      <DependentUpon>BajaDeProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\BajaDeProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\ClientesInactivos.Designer.vb">
+      <DependentUpon>ClientesInactivos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\ClientesInactivos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\AltaDeCategoria.Designer.vb">
+      <DependentUpon>AltaDeCategoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\AltaDeCategoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\BajaDeCategoria.Designer.vb">
+      <DependentUpon>BajaDeCategoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\BajaDeCategoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\ModificarCategoria.Designer.vb">
+      <DependentUpon>ModificarCategoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\ModificarCategoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\MenuSupervisor.Designer.vb">
+      <DependentUpon>MenuSupervisor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\MenuSupervisor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\ModificarProductos.Designer.vb">
+      <DependentUpon>ModificarProductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\ModificarProductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\MostrarProductos.Designer.vb">
+      <DependentUpon>MostrarProductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\MostrarProductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\ProductosInactivos.Designer.vb">
+      <DependentUpon>ProductosInactivos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\ProductosInactivos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\ReporteStock.Designer.vb">
+      <DependentUpon>ReporteStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\Supervisor\ReporteStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRODUCTOS.vb">
+      <DependentUpon>DB_VIVEROmodel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TIPOS_DE_PRODUCTOS.vb">
+      <DependentUpon>DB_VIVEROmodel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="USUARIOS.vb">
+      <DependentUpon>DB_VIVEROmodel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Administrador\AltaUsuario.resx">
+      <DependentUpon>AltaUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Administrador\Backup.resx">
+      <DependentUpon>Backup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Administrador\BajaUsuario.resx">
+      <DependentUpon>BajaUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Administrador\MenuAdmin.resx">
+      <DependentUpon>MenuAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Administrador\ModificarUsuario.resx">
+      <DependentUpon>ModificarUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Administrador\MuestraUsuarios.resx">
+      <DependentUpon>MuestraUsuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Administrador\UsuariosInactivos.resx">
+      <DependentUpon>UsuariosInactivos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Empleado\AltaCliente.resx">
+      <DependentUpon>AltaCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Empleado\MenuVendedor.resx">
+      <DependentUpon>MenuVendedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Empleado\MisVentas.resx">
+      <DependentUpon>MisVentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Empleado\ModificarCliente.resx">
+      <DependentUpon>ModificarCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Empleado\MostrarCliente.resx">
+      <DependentUpon>MostrarCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Empleado\SeleccionarCliente.resx">
+      <DependentUpon>SeleccionarCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Empleado\SeleccionarProducto.resx">
+      <DependentUpon>SeleccionarProducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Empleado\VerFactura.resx">
+      <DependentUpon>VerFactura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Empleado\VerProductos.resx">
+      <DependentUpon>VerProductos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Empleado\AgregarVenta.resx">
+      <DependentUpon>AgregarVenta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\GerenteSupervisor\ListadoDeVentas.resx">
+      <DependentUpon>ListadoDeVentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\GerenteSupervisor\MenuGerenteSupervisor.resx">
+      <DependentUpon>MenuGerenteSupervisor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\GerenteSupervisor\VentasProductos.resx">
+      <DependentUpon>VentasProductos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\GerenteSupervisor\ReporteDeIngresos.resx">
+      <DependentUpon>ReporteDeIngresos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Supervisor\AltaDeCategoria.resx">
+      <DependentUpon>AltaDeCategoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Supervisor\AltaDeProducto.resx">
+      <DependentUpon>AltaDeProducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Supervisor\BajaDeCliente.resx">
+      <DependentUpon>BajaDeCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Supervisor\BajaDeProducto.resx">
+      <DependentUpon>BajaDeProducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Supervisor\ClientesInactivos.resx">
+      <DependentUpon>ClientesInactivos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Supervisor\BajaDeCategoria.resx">
+      <DependentUpon>BajaDeCategoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Supervisor\ModificarCategoria.resx">
+      <DependentUpon>ModificarCategoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Supervisor\MenuSupervisor.resx">
+      <DependentUpon>MenuSupervisor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Supervisor\ModificarProductos.resx">
+      <DependentUpon>ModificarProductos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Supervisor\MostrarProductos.resx">
+      <DependentUpon>MostrarProductos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Supervisor\ProductosInactivos.resx">
+      <DependentUpon>ProductosInactivos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\Supervisor\ReporteStock.resx">
+      <DependentUpon>ReporteStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\InformeProductos.rdlc" />
+    <EmbeddedResource Include="Reportes\InformeProductosAll.rdlc" />
+    <EmbeddedResource Include="Reportes\InformeIngresosPorVendedor.rdlc" />
+    <EmbeddedResource Include="Reportes\ReportFacturas.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <EntityDeploy Include="DB_VIVEROmodel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DB_VIVEROmodel.Designer.vb</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DatosDeFacturas.xsc">
+      <DependentUpon>DatosDeFacturas.xsd</DependentUpon>
+    </None>
+    <None Include="DatosDeFacturas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatosDeFacturas.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DatosDeFacturas.xss">
+      <DependentUpon>DatosDeFacturas.xsd</DependentUpon>
+    </None>
+    <None Include="DatosProdPorCategoria.xsc">
+      <DependentUpon>DatosProdPorCategoria.xsd</DependentUpon>
+    </None>
+    <None Include="DatosProdPorCategoria.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatosProdPorCategoria.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DatosProdPorCategoria.xss">
+      <DependentUpon>DatosProdPorCategoria.xsd</DependentUpon>
+    </None>
+    <None Include="DatosProductos.xsc">
+      <DependentUpon>DatosProductos.xsd</DependentUpon>
+    </None>
+    <None Include="DatosProductos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatosProductos.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DatosProductos.xss">
+      <DependentUpon>DatosProductos.xsd</DependentUpon>
+    </None>
+    <None Include="DatosVentasPorVendedor.xsc">
+      <DependentUpon>DatosVentasPorVendedor.xsd</DependentUpon>
+    </None>
+    <None Include="DatosVentasPorVendedor.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatosVentasPorVendedor.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DatosVentasPorVendedor.xss">
+      <DependentUpon>DatosVentasPorVendedor.xsd</DependentUpon>
+    </None>
+    <None Include="DB_VIVEROmodel.edmx.diagram">
+      <DependentUpon>DB_VIVEROmodel.edmx</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\viveros-de-plantas-caracteristicas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantas-floraciones-finales-de-invierno-xl-668x400x80xX-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1071031508-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dk3SMfjX4AUXvG3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viveros-de-plantas-caracteristicas1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\historia-fisica-plantas-AyP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-green-leaf-logo-agriculture-accommodation-internet-television-2018-hotel-farm-stay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\historia-fisica-plantas-AyP1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_30378823-stock-illustration-plants-eco-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-plant-logo-stock-photography-clip-art-rice-5ac51cfec39fe6.1256350315228674548013.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-wedding-simple-cover-green-leaves-tropical-plant-background-image_333607.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logovivero2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcsnormal_93488 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_cancel_128_28318 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actualizado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_icon-icons.com_74429.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-validated_40458.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Día_Mundial_del_Backup-1000x600.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\93e1bc7856130db4cec930345a13eba9-fondo-de-plantas-de-primavera-de-estilo-funky.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print_icon-icons.com_73705.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\93e1bc7856130db4cec930345a13eba9-fondo-de-plantas-de-primavera-de-estilo-funky1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantas-ilustraciones-senor-gato_19c3baff_1200x630.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DB_VIVEROmodel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DB_VIVEROmodel.edmx</DependentUpon>
+      <LastGenOutput>DB_VIVEROmodel.Context.vb</LastGenOutput>
+    </Content>
+    <Content Include="DB_VIVEROmodel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DB_VIVEROmodel.edmx</DependentUpon>
+      <LastGenOutput>DB_VIVEROmodel.vb</LastGenOutput>
+    </Content>
+    <None Include="Resources\aaa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

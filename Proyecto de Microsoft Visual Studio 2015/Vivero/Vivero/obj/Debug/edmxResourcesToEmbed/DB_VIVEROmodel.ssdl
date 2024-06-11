@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB_VIVEROModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CATEGORIAS">
+    <Key>
+      <PropertyRef Name="id_categoria" />
+    </Key>
+    <Property Name="id_categoria" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="categoria" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="eliminado" Type="nvarchar" MaxLength="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CLIENTES">
+    <Key>
+      <PropertyRef Name="id_cliente" />
+    </Key>
+    <Property Name="id_cliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="apellido" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DNI" Type="int" Nullable="false" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="telefono" Type="nvarchar" MaxLength="20" />
+    <Property Name="direccion" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="provincia" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="localidad" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="eliminado" Type="nvarchar" MaxLength="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FACTURAS">
+    <Key>
+      <PropertyRef Name="num_factura" />
+    </Key>
+    <Property Name="num_factura" Type="int" Nullable="false" />
+    <Property Name="fecha_y_hora" Type="smalldatetime" Nullable="false" />
+    <Property Name="id_vendedor" Type="smallint" Nullable="false" />
+    <Property Name="id_FdePago" Type="tinyint" Nullable="false" />
+    <Property Name="id_cliente" Type="int" Nullable="false" />
+    <Property Name="total" Type="float" Nullable="false" />
+    <Property Name="anulado" Type="nvarchar" MaxLength="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FACTURAS_DETALLE">
+    <Key>
+      <PropertyRef Name="num_factura" />
+      <PropertyRef Name="id_item" />
+    </Key>
+    <Property Name="num_factura" Type="int" Nullable="false" />
+    <Property Name="id_item" Type="tinyint" Nullable="false" />
+    <Property Name="id_producto" Type="int" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="precio" Type="float" Nullable="false" />
+    <Property Name="cantidad" Type="smallint" Nullable="false" />
+    <Property Name="sub_total" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FORMAS_DE_PAGO">
+    <Key>
+      <PropertyRef Name="id_FdePago" />
+    </Key>
+    <Property Name="id_FdePago" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FdePago" Type="nvarchar" MaxLength="25" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PERFILES">
+    <Key>
+      <PropertyRef Name="id_perfil" />
+    </Key>
+    <Property Name="id_perfil" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="perfil" Type="nvarchar" MaxLength="25" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PRODUCTOS">
+    <Key>
+      <PropertyRef Name="id_producto" />
+    </Key>
+    <Property Name="id_categoria" Type="tinyint" Nullable="false" />
+    <Property Name="id_tipo" Type="smallint" Nullable="false" />
+    <Property Name="id_producto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="descripcion" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="tamanio" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="disponible" Type="nvarchar" MaxLength="2" Nullable="false" />
+    <Property Name="stock_min" Type="tinyint" Nullable="false" />
+    <Property Name="stock" Type="smallint" Nullable="false" />
+    <Property Name="precio_lista" Type="float" Nullable="false" />
+    <Property Name="precio_venta" Type="float" Nullable="false" />
+    <Property Name="descuento" Type="tinyint" Nullable="false" />
+    <Property Name="veces_vendido" Type="int" Nullable="false" />
+    <Property Name="eliminado" Type="nvarchar" MaxLength="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TIPOS_DE_PRODUCTOS">
+    <Key>
+      <PropertyRef Name="id_categoria" />
+      <PropertyRef Name="id_tipo" />
+    </Key>
+    <Property Name="id_categoria" Type="tinyint" Nullable="false" />
+    <Property Name="id_tipo" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tipo" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="eliminado" Type="nvarchar" MaxLength="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="USUARIOS">
+    <Key>
+      <PropertyRef Name="id_usuario" />
+    </Key>
+    <Property Name="id_perfil" Type="tinyint" Nullable="false" />
+    <Property Name="id_usuario" Type="smallint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DNI" Type="int" Nullable="false" />
+    <Property Name="apellido" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="fecha_nac" Type="date" Nullable="false" />
+    <Property Name="fecha_ingreso" Type="date" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="contraseña" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="direccion" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="telefono" Type="nvarchar" MaxLength="20" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="eliminado" Type="nvarchar" MaxLength="2" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_categoria">
+    <End Role="CATEGORIAS" Type="Self.CATEGORIAS" Multiplicity="1" />
+    <End Role="TIPOS_DE_PRODUCTOS" Type="Self.TIPOS_DE_PRODUCTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CATEGORIAS">
+        <PropertyRef Name="id_categoria" />
+      </Principal>
+      <Dependent Role="TIPOS_DE_PRODUCTOS">
+        <PropertyRef Name="id_categoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_detalle_facturas">
+    <End Role="FACTURAS" Type="Self.FACTURAS" Multiplicity="1" />
+    <End Role="FACTURAS_DETALLE" Type="Self.FACTURAS_DETALLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FACTURAS">
+        <PropertyRef Name="num_factura" />
+      </Principal>
+      <Dependent Role="FACTURAS_DETALLE">
+        <PropertyRef Name="num_factura" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_detalle_producto">
+    <End Role="PRODUCTOS" Type="Self.PRODUCTOS" Multiplicity="1" />
+    <End Role="FACTURAS_DETALLE" Type="Self.FACTURAS_DETALLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PRODUCTOS">
+        <PropertyRef Name="id_producto" />
+      </Principal>
+      <Dependent Role="FACTURAS_DETALLE">
+        <PropertyRef Name="id_producto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_factura_cliente">
+    <End Role="CLIENTES" Type="Self.CLIENTES" Multiplicity="1" />
+    <End Role="FACTURAS" Type="Self.FACTURAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENTES">
+        <PropertyRef Name="id_cliente" />
+      </Principal>
+      <Dependent Role="FACTURAS">
+        <PropertyRef Name="id_cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_factura_FdePago">
+    <End Role="FORMAS_DE_PAGO" Type="Self.FORMAS_DE_PAGO" Multiplicity="1" />
+    <End Role="FACTURAS" Type="Self.FACTURAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FORMAS_DE_PAGO">
+        <PropertyRef Name="id_FdePago" />
+      </Principal>
+      <Dependent Role="FACTURAS">
+        <PropertyRef Name="id_FdePago" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_factura_usuario)">
+    <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="1" />
+    <End Role="FACTURAS" Type="Self.FACTURAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIOS">
+        <PropertyRef Name="id_usuario" />
+      </Principal>
+      <Dependent Role="FACTURAS">
+        <PropertyRef Name="id_vendedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_id_perfil">
+    <End Role="PERFILES" Type="Self.PERFILES" Multiplicity="1" />
+    <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PERFILES">
+        <PropertyRef Name="id_perfil" />
+      </Principal>
+      <Dependent Role="USUARIOS">
+        <PropertyRef Name="id_perfil" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_productos_tipo">
+    <End Role="TIPOS_DE_PRODUCTOS" Type="Self.TIPOS_DE_PRODUCTOS" Multiplicity="1" />
+    <End Role="PRODUCTOS" Type="Self.PRODUCTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TIPOS_DE_PRODUCTOS">
+        <PropertyRef Name="id_categoria" />
+        <PropertyRef Name="id_tipo" />
+      </Principal>
+      <Dependent Role="PRODUCTOS">
+        <PropertyRef Name="id_categoria" />
+        <PropertyRef Name="id_tipo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DB_VIVEROModelStoreContainer">
+    <EntitySet Name="CATEGORIAS" EntityType="Self.CATEGORIAS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CLIENTES" EntityType="Self.CLIENTES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FACTURAS" EntityType="Self.FACTURAS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FACTURAS_DETALLE" EntityType="Self.FACTURAS_DETALLE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FORMAS_DE_PAGO" EntityType="Self.FORMAS_DE_PAGO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PERFILES" EntityType="Self.PERFILES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PRODUCTOS" EntityType="Self.PRODUCTOS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TIPOS_DE_PRODUCTOS" EntityType="Self.TIPOS_DE_PRODUCTOS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USUARIOS" EntityType="Self.USUARIOS" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_categoria" Association="Self.FK_categoria">
+      <End Role="CATEGORIAS" EntitySet="CATEGORIAS" />
+      <End Role="TIPOS_DE_PRODUCTOS" EntitySet="TIPOS_DE_PRODUCTOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_detalle_facturas" Association="Self.FK_detalle_facturas">
+      <End Role="FACTURAS" EntitySet="FACTURAS" />
+      <End Role="FACTURAS_DETALLE" EntitySet="FACTURAS_DETALLE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_detalle_producto" Association="Self.FK_detalle_producto">
+      <End Role="PRODUCTOS" EntitySet="PRODUCTOS" />
+      <End Role="FACTURAS_DETALLE" EntitySet="FACTURAS_DETALLE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_factura_cliente" Association="Self.FK_factura_cliente">
+      <End Role="CLIENTES" EntitySet="CLIENTES" />
+      <End Role="FACTURAS" EntitySet="FACTURAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_factura_FdePago" Association="Self.FK_factura_FdePago">
+      <End Role="FORMAS_DE_PAGO" EntitySet="FORMAS_DE_PAGO" />
+      <End Role="FACTURAS" EntitySet="FACTURAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_factura_usuario)" Association="Self.FK_factura_usuario)">
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+      <End Role="FACTURAS" EntitySet="FACTURAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_id_perfil" Association="Self.FK_id_perfil">
+      <End Role="PERFILES" EntitySet="PERFILES" />
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_productos_tipo" Association="Self.FK_productos_tipo">
+      <End Role="TIPOS_DE_PRODUCTOS" EntitySet="TIPOS_DE_PRODUCTOS" />
+      <End Role="PRODUCTOS" EntitySet="PRODUCTOS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

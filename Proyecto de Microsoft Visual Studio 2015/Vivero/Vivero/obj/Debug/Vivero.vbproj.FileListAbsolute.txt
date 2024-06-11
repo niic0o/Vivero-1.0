@@ -1,0 +1,172 @@
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\bin\Debug\Vivero.exe.config
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\bin\Debug\Vivero.exe
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\bin\Debug\Vivero.pdb
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\bin\Debug\Vivero.xml
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.vbprojResolveAssemblyReference.cache
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.Form1.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.Login.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.Resources.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.vbproj.GenerateResource.Cache
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.exe
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.xml
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.pdb
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.AltaUsuario.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.MenuAdmin.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.Backup.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.BajaUsuario.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.ModificarUsuario.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.MuestraUsuarios.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.UsuariosInactivos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.AgregarVenta.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.AltaCliente.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.MenuVendedor.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.ModificarCliente.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.MostrarCliente.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.VerProductos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.AltaDeProducto.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.BajaDeCliente.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.BajaDeProducto.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.ClientesInactivos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.MenuSupervisor.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.ModificarProductos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.MostrarProductos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.ProductosInactivos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.ReporteVentas.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\practicos 2021\Vivero\Vivero\Vivero\obj\Debug\Vivero.MisVentas.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\bin\Debug\Vivero.exe.config
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.exe
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.xml
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.pdb
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.vbprojResolveAssemblyReference.cache
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.Form1.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.Login.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.Resources.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.AltaUsuario.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.Backup.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.BajaUsuario.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.MenuAdmin.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.ModificarUsuario.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.MuestraUsuarios.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.UsuariosInactivos.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.AgregarVenta.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.AltaCliente.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.MenuVendedor.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.MisVentas.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.ModificarCliente.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.MostrarCliente.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.VerProductos.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.AltaDeProducto.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.BajaDeCliente.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.BajaDeProducto.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.ClientesInactivos.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.MenuSupervisor.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.ModificarProductos.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.MostrarProductos.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.ProductosInactivos.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.vbproj.GenerateResource.Cache
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\bin\Debug\Vivero.exe
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\bin\Debug\Vivero.pdb
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\bin\Debug\Vivero.xml
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.AltaDeCategoria.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.ModificarCategoria.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.BajaDeCategoria.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\bin\Debug\Vivero.exe.config
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\bin\Debug\Vivero.exe
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\bin\Debug\Vivero.pdb
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\bin\Debug\Vivero.xml
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.Form1.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.Login.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.Resources.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.AltaUsuario.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.Backup.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.BajaUsuario.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.MenuAdmin.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.ModificarUsuario.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.MuestraUsuarios.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.UsuariosInactivos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.AgregarVenta.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.AltaCliente.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.MenuVendedor.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.MisVentas.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.ModificarCliente.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.MostrarCliente.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.VerProductos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.AltaDeCategoria.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.AltaDeProducto.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.BajaDeCliente.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.BajaDeProducto.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.ClientesInactivos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.BajaDeCategoria.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.ModificarCategoria.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.MenuSupervisor.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.ModificarProductos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.MostrarProductos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.ProductosInactivos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.ReporteVentas.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.vbproj.GenerateResource.cache
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.exe
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.xml
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.pdb
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.vbprojResolveAssemblyReference.cache
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.ListadoDeVentas.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.MenuGerenteSupervisor.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.ReporteDeVentas.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\4\Vivero\Vivero\obj\Debug\Vivero.VentasProductos.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.ListadoDeVentas.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.MenuGerenteSupervisor.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.VentasProductos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\bin\Debug\Vivero.exe.config
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.exe
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.xml
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.pdb
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\bin\Debug\Vivero.exe
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\bin\Debug\Vivero.pdb
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\bin\Debug\Vivero.xml
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.vbprojResolveAssemblyReference.cache
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.Form1.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.Login.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.Resources.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.AltaUsuario.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.Backup.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.BajaUsuario.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.MenuAdmin.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.ModificarUsuario.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.MuestraUsuarios.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.UsuariosInactivos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.AgregarVenta.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.AltaCliente.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.MenuVendedor.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.MisVentas.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.ModificarCliente.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.MostrarCliente.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.VerProductos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.ListadoDeVentas.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.MenuGerenteSupervisor.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.ReporteDeVentas.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.VentasProductos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.AltaDeCategoria.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.AltaDeProducto.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.BajaDeCliente.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.BajaDeProducto.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.ClientesInactivos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.BajaDeCategoria.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.ModificarCategoria.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.MenuSupervisor.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.ModificarProductos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.MostrarProductos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.ProductosInactivos.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.ReporteVentas.resources
+E:\FRANCO\FACULTAD\2020\taller 2\practicos\back up vivero\7-ultimo\Vivero\Vivero\obj\Debug\Vivero.vbproj.GenerateResource.Cache
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\bin\Debug\EntityFramework.dll
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\bin\Debug\EntityFramework.SqlServer.dll
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\bin\Debug\EntityFramework.xml
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\bin\Debug\EntityFramework.SqlServer.xml
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.SeleccionarCliente.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.SeleccionarProducto.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\RdlCompile.cache
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\RdlCompile.compiled
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.VerFactura.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.ReporteStock.resources
+C:\Nico UNNE\Clases virtuales 2021\Taller de Programación II (2021)\Microsoft Visual Studio 2015\Soluciones (apps)\Vivero\Vivero\obj\Debug\Vivero.ReporteDeIngresos.resources
