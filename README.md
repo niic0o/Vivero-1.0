@@ -3,12 +3,12 @@ Esta aplicación fue desarrollada para el cobro por caja de una tienda vendedora
 Permite emitir reportes sobre ventas y la facturacion de la compra
 Contiene los siguientes roles de usuarios:
 
-# Administrador - Gerente - Supervisor - Vendedor 
+Administrador - Gerente - Supervisor - Vendedor 
 
-# Metodologia Agile, Scrum
-# Trabajo colaborativo en pareja.
+## Metodologia Agile, Scrum
+## Trabajo colaborativo 2 desarrolladores.
 
-## Especificación de Requisitos de Software:
+# Especificación de Requisitos de Software:
 
 3.1 Requerimientos Funcionales
 Gestión de Usuarios
