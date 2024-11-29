@@ -10,7 +10,6 @@ Administrador - Gerente - Supervisor - Vendedor
 
 # Especificación de Requisitos de Software:
 
-3.1 Requerimientos Funcionales
 Gestión de Usuarios
 RF#1: El sistema debe permitir el inicio de sesión de un usuario.
 RF#2: El sistema debe permitir el alta de un usuario nuevo.
@@ -79,4 +78,3 @@ Reportes
 RF#53: El sistema debe mostrar un reporte grafico en pantalla al usuario supervisor sobre el stock de los productos.
 RF#54: El sistema debe mostrar un reporte gráfico en pantalla de la cantidad de ingresos por vendedor al usuario gerente supervisor
 RF#55: El sistema debe mostrar un reporte grafico en pantalla de los productos más vendidos al usuario gerente supervisor.
-
